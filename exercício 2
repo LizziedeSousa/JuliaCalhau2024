@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main()
+{
+	int a, b, c, d, e;
+	printf("digite o primeiro numero:\n");
+	scanf("%d",&a);
+
+	printf("digite o segundo numero:\n");
+	scanf("%d", &b);
+
+	printf("digite o terceiro numero:\n");
+	scanf("%d", &c);
+	
+	 d =a + b ;
+	 e = d / c;
+	printf("A soma de a + b = %d ", d);
+	printf("\n");
+	printf("a divisao de d / c = %d", e);
+	return 0;
+
+    
+}
