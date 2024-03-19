@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<locale.h>
+int main()
+{
+    setlocale(LC_ALL,"");
+    int velocidade;
+    int distância;
+    
+    
+    printf("digite a velocidade :");
+    scanf("%d", &velocidade);
+    
+    printf("digite a distância :");
+    scanf("%d", &distância);
+    
+   
+    printf("a velocidade é : %d", velocidade/distância);
+    
+    
+    return 0;
+     
+}
